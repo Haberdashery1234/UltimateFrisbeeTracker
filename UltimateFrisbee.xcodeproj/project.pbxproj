@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC0438F1DA46D5A001B2A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0438E1DA46D5A001B2A2E /* AppDelegate.swift */; };
+		7CC043911DA46D5A001B2A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043901DA46D5A001B2A2E /* ViewController.swift */; };
+		7CC043941DA46D5A001B2A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043921DA46D5A001B2A2E /* Main.storyboard */; };
+		7CC043961DA46D5A001B2A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043951DA46D5A001B2A2E /* Assets.xcassets */; };
+		7CC043991DA46D5A001B2A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043971DA46D5A001B2A2E /* LaunchScreen.storyboard */; };
+		7CC043A41DA46D5A001B2A2E /* UltimateFrisbeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043A31DA46D5A001B2A2E /* UltimateFrisbeeTests.swift */; };
+		7CC043AF1DA46D5A001B2A2E /* UltimateFrisbeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043AE1DA46D5A001B2A2E /* UltimateFrisbeeUITests.swift */; };
+		7CC043B41DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CC043B31DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app */; };
+		7CC043BA1DA46D5A001B2A2E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043B81DA46D5A001B2A2E /* Interface.storyboard */; };
+		7CC043BC1DA46D5A001B2A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043BB1DA46D5A001B2A2E /* Assets.xcassets */; };
+		7CC043C31DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CC043C21DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CC043CA1DA46D5B001B2A2E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043C91DA46D5B001B2A2E /* InterfaceController.swift */; };
+		7CC043CC1DA46D5B001B2A2E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043CB1DA46D5B001B2A2E /* ExtensionDelegate.swift */; };
+		7CC043CE1DA46D5B001B2A2E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043CD1DA46D5B001B2A2E /* NotificationController.swift */; };
+		7CC043D01DA46D5B001B2A2E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC043CF1DA46D5B001B2A2E /* ComplicationController.swift */; };
+		7CC043D21DA46D5B001B2A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC043D11DA46D5B001B2A2E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC043A01DA46D5A001B2A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC043831DA46D59001B2A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC0438A1DA46D59001B2A2E;
+			remoteInfo = UltimateFrisbee;
+		};
+		7CC043AB1DA46D5A001B2A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC043831DA46D59001B2A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC0438A1DA46D59001B2A2E;
+			remoteInfo = UltimateFrisbee;
+		};
+		7CC043B51DA46D5A001B2A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC043831DA46D59001B2A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC043B21DA46D5A001B2A2E;
+			remoteInfo = "UltimateFrisbee WatchKit App";
+		};
+		7CC043C41DA46D5B001B2A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC043831DA46D59001B2A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC043C11DA46D5B001B2A2E;
+			remoteInfo = "UltimateFrisbee WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CC043D91DA46D5B001B2A2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CC043C31DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043DD1DA46D5B001B2A2E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7CC043B41DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7CC0438B1DA46D5A001B2A2E /* UltimateFrisbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimateFrisbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC0438E1DA46D5A001B2A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC043901DA46D5A001B2A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC043931DA46D5A001B2A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC043951DA46D5A001B2A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC043981DA46D5A001B2A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC0439A1DA46D5A001B2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC0439F1DA46D5A001B2A2E /* UltimateFrisbeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimateFrisbeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC043A31DA46D5A001B2A2E /* UltimateFrisbeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateFrisbeeTests.swift; sourceTree = "<group>"; };
+		7CC043A51DA46D5A001B2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC043AA1DA46D5A001B2A2E /* UltimateFrisbeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimateFrisbeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC043AE1DA46D5A001B2A2E /* UltimateFrisbeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateFrisbeeUITests.swift; sourceTree = "<group>"; };
+		7CC043B01DA46D5A001B2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC043B31DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UltimateFrisbee WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC043B91DA46D5A001B2A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7CC043BB1DA46D5A001B2A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC043BD1DA46D5A001B2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC043C21DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UltimateFrisbee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC043C81DA46D5B001B2A2E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7CC043C91DA46D5B001B2A2E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7CC043CB1DA46D5B001B2A2E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7CC043CD1DA46D5B001B2A2E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7CC043CF1DA46D5B001B2A2E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7CC043D11DA46D5B001B2A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC043D31DA46D5B001B2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC043881DA46D59001B2A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC0439C1DA46D5A001B2A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043A71DA46D5A001B2A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043BF1DA46D5B001B2A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC043821DA46D59001B2A2E = {
+			isa = PBXGroup;
+			children = (
+				7CC0438D1DA46D5A001B2A2E /* UltimateFrisbee */,
+				7CC043A21DA46D5A001B2A2E /* UltimateFrisbeeTests */,
+				7CC043AD1DA46D5A001B2A2E /* UltimateFrisbeeUITests */,
+				7CC043B71DA46D5A001B2A2E /* UltimateFrisbee WatchKit App */,
+				7CC043C61DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension */,
+				7CC0438C1DA46D5A001B2A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC0438C1DA46D5A001B2A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC0438B1DA46D5A001B2A2E /* UltimateFrisbee.app */,
+				7CC0439F1DA46D5A001B2A2E /* UltimateFrisbeeTests.xctest */,
+				7CC043AA1DA46D5A001B2A2E /* UltimateFrisbeeUITests.xctest */,
+				7CC043B31DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app */,
+				7CC043C21DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC0438D1DA46D5A001B2A2E /* UltimateFrisbee */ = {
+			isa = PBXGroup;
+			children = (
+				7CC0438E1DA46D5A001B2A2E /* AppDelegate.swift */,
+				7CC043901DA46D5A001B2A2E /* ViewController.swift */,
+				7CC043921DA46D5A001B2A2E /* Main.storyboard */,
+				7CC043951DA46D5A001B2A2E /* Assets.xcassets */,
+				7CC043971DA46D5A001B2A2E /* LaunchScreen.storyboard */,
+				7CC0439A1DA46D5A001B2A2E /* Info.plist */,
+			);
+			path = UltimateFrisbee;
+			sourceTree = "<group>";
+		};
+		7CC043A21DA46D5A001B2A2E /* UltimateFrisbeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC043A31DA46D5A001B2A2E /* UltimateFrisbeeTests.swift */,
+				7CC043A51DA46D5A001B2A2E /* Info.plist */,
+			);
+			path = UltimateFrisbeeTests;
+			sourceTree = "<group>";
+		};
+		7CC043AD1DA46D5A001B2A2E /* UltimateFrisbeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC043AE1DA46D5A001B2A2E /* UltimateFrisbeeUITests.swift */,
+				7CC043B01DA46D5A001B2A2E /* Info.plist */,
+			);
+			path = UltimateFrisbeeUITests;
+			sourceTree = "<group>";
+		};
+		7CC043B71DA46D5A001B2A2E /* UltimateFrisbee WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7CC043B81DA46D5A001B2A2E /* Interface.storyboard */,
+				7CC043BB1DA46D5A001B2A2E /* Assets.xcassets */,
+				7CC043BD1DA46D5A001B2A2E /* Info.plist */,
+			);
+			path = "UltimateFrisbee WatchKit App";
+			sourceTree = "<group>";
+		};
+		7CC043C61DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7CC043C91DA46D5B001B2A2E /* InterfaceController.swift */,
+				7CC043CB1DA46D5B001B2A2E /* ExtensionDelegate.swift */,
+				7CC043CD1DA46D5B001B2A2E /* NotificationController.swift */,
+				7CC043CF1DA46D5B001B2A2E /* ComplicationController.swift */,
+				7CC043D11DA46D5B001B2A2E /* Assets.xcassets */,
+				7CC043D31DA46D5B001B2A2E /* Info.plist */,
+				7CC043C71DA46D5B001B2A2E /* Supporting Files */,
+			);
+			path = "UltimateFrisbee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7CC043C71DA46D5B001B2A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC043C81DA46D5B001B2A2E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC0438A1DA46D59001B2A2E /* UltimateFrisbee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC043DE1DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee" */;
+			buildPhases = (
+				7CC043871DA46D59001B2A2E /* Sources */,
+				7CC043881DA46D59001B2A2E /* Frameworks */,
+				7CC043891DA46D59001B2A2E /* Resources */,
+				7CC043DD1DA46D5B001B2A2E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC043B61DA46D5A001B2A2E /* PBXTargetDependency */,
+			);
+			name = UltimateFrisbee;
+			productName = UltimateFrisbee;
+			productReference = 7CC0438B1DA46D5A001B2A2E /* UltimateFrisbee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC0439E1DA46D5A001B2A2E /* UltimateFrisbeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC043E11DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbeeTests" */;
+			buildPhases = (
+				7CC0439B1DA46D5A001B2A2E /* Sources */,
+				7CC0439C1DA46D5A001B2A2E /* Frameworks */,
+				7CC0439D1DA46D5A001B2A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC043A11DA46D5A001B2A2E /* PBXTargetDependency */,
+			);
+			name = UltimateFrisbeeTests;
+			productName = UltimateFrisbeeTests;
+			productReference = 7CC0439F1DA46D5A001B2A2E /* UltimateFrisbeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC043A91DA46D5A001B2A2E /* UltimateFrisbeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC043E41DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbeeUITests" */;
+			buildPhases = (
+				7CC043A61DA46D5A001B2A2E /* Sources */,
+				7CC043A71DA46D5A001B2A2E /* Frameworks */,
+				7CC043A81DA46D5A001B2A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC043AC1DA46D5A001B2A2E /* PBXTargetDependency */,
+			);
+			name = UltimateFrisbeeUITests;
+			productName = UltimateFrisbeeUITests;
+			productReference = 7CC043AA1DA46D5A001B2A2E /* UltimateFrisbeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7CC043B21DA46D5A001B2A2E /* UltimateFrisbee WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC043DA1DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee WatchKit App" */;
+			buildPhases = (
+				7CC043B11DA46D5A001B2A2E /* Resources */,
+				7CC043D91DA46D5B001B2A2E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC043C51DA46D5B001B2A2E /* PBXTargetDependency */,
+			);
+			name = "UltimateFrisbee WatchKit App";
+			productName = "UltimateFrisbee WatchKit App";
+			productReference = 7CC043B31DA46D5A001B2A2E /* UltimateFrisbee WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7CC043C11DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC043D61DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee WatchKit Extension" */;
+			buildPhases = (
+				7CC043BE1DA46D5B001B2A2E /* Sources */,
+				7CC043BF1DA46D5B001B2A2E /* Frameworks */,
+				7CC043C01DA46D5B001B2A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UltimateFrisbee WatchKit Extension";
+			productName = "UltimateFrisbee WatchKit Extension";
+			productReference = 7CC043C21DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC043831DA46D59001B2A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					7CC0438A1DA46D59001B2A2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CPLXYN9C23;
+						ProvisioningStyle = Automatic;
+					};
+					7CC0439E1DA46D5A001B2A2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CPLXYN9C23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC0438A1DA46D59001B2A2E;
+					};
+					7CC043A91DA46D5A001B2A2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CPLXYN9C23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC0438A1DA46D59001B2A2E;
+					};
+					7CC043B21DA46D5A001B2A2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CPLXYN9C23;
+						ProvisioningStyle = Automatic;
+					};
+					7CC043C11DA46D5B001B2A2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CPLXYN9C23;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CC043861DA46D59001B2A2E /* Build configuration list for PBXProject "UltimateFrisbee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC043821DA46D59001B2A2E;
+			productRefGroup = 7CC0438C1DA46D5A001B2A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC0438A1DA46D59001B2A2E /* UltimateFrisbee */,
+				7CC0439E1DA46D5A001B2A2E /* UltimateFrisbeeTests */,
+				7CC043A91DA46D5A001B2A2E /* UltimateFrisbeeUITests */,
+				7CC043B21DA46D5A001B2A2E /* UltimateFrisbee WatchKit App */,
+				7CC043C11DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC043891DA46D59001B2A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043991DA46D5A001B2A2E /* LaunchScreen.storyboard in Resources */,
+				7CC043961DA46D5A001B2A2E /* Assets.xcassets in Resources */,
+				7CC043941DA46D5A001B2A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC0439D1DA46D5A001B2A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043A81DA46D5A001B2A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043B11DA46D5A001B2A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043BC1DA46D5A001B2A2E /* Assets.xcassets in Resources */,
+				7CC043BA1DA46D5A001B2A2E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043C01DA46D5B001B2A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043D21DA46D5B001B2A2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC043871DA46D59001B2A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043911DA46D5A001B2A2E /* ViewController.swift in Sources */,
+				7CC0438F1DA46D5A001B2A2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC0439B1DA46D5A001B2A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043A41DA46D5A001B2A2E /* UltimateFrisbeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043A61DA46D5A001B2A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043AF1DA46D5A001B2A2E /* UltimateFrisbeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC043BE1DA46D5B001B2A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC043CE1DA46D5B001B2A2E /* NotificationController.swift in Sources */,
+				7CC043D01DA46D5B001B2A2E /* ComplicationController.swift in Sources */,
+				7CC043CC1DA46D5B001B2A2E /* ExtensionDelegate.swift in Sources */,
+				7CC043CA1DA46D5B001B2A2E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC043A11DA46D5A001B2A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC0438A1DA46D59001B2A2E /* UltimateFrisbee */;
+			targetProxy = 7CC043A01DA46D5A001B2A2E /* PBXContainerItemProxy */;
+		};
+		7CC043AC1DA46D5A001B2A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC0438A1DA46D59001B2A2E /* UltimateFrisbee */;
+			targetProxy = 7CC043AB1DA46D5A001B2A2E /* PBXContainerItemProxy */;
+		};
+		7CC043B61DA46D5A001B2A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC043B21DA46D5A001B2A2E /* UltimateFrisbee WatchKit App */;
+			targetProxy = 7CC043B51DA46D5A001B2A2E /* PBXContainerItemProxy */;
+		};
+		7CC043C51DA46D5B001B2A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC043C11DA46D5B001B2A2E /* UltimateFrisbee WatchKit Extension */;
+			targetProxy = 7CC043C41DA46D5B001B2A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC043921DA46D5A001B2A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC043931DA46D5A001B2A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC043971DA46D5A001B2A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC043981DA46D5A001B2A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC043B81DA46D5A001B2A2E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC043B91DA46D5A001B2A2E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC043D41DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC043D51DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC043D71DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = "UltimateFrisbee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		7CC043D81DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = "UltimateFrisbee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		7CC043DB1DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				IBSC_MODULE = UltimateFrisbee_WatchKit_Extension;
+				INFOPLIST_FILE = "UltimateFrisbee WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		7CC043DC1DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				IBSC_MODULE = UltimateFrisbee_WatchKit_Extension;
+				INFOPLIST_FILE = "UltimateFrisbee WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		7CC043DF1DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CC043E01DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7CC043E21DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimateFrisbee.app/UltimateFrisbee";
+			};
+			name = Debug;
+		};
+		7CC043E31DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimateFrisbee.app/UltimateFrisbee";
+			};
+			name = Release;
+		};
+		7CC043E51DA46D5B001B2A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UltimateFrisbee;
+			};
+			name = Debug;
+		};
+		7CC043E61DA46D5B001B2A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CPLXYN9C23;
+				INFOPLIST_FILE = UltimateFrisbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiangrise.UltimateFrisbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UltimateFrisbee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC043861DA46D59001B2A2E /* Build configuration list for PBXProject "UltimateFrisbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043D41DA46D5B001B2A2E /* Debug */,
+				7CC043D51DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC043D61DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043D71DA46D5B001B2A2E /* Debug */,
+				7CC043D81DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC043DA1DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043DB1DA46D5B001B2A2E /* Debug */,
+				7CC043DC1DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC043DE1DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043DF1DA46D5B001B2A2E /* Debug */,
+				7CC043E01DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC043E11DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043E21DA46D5B001B2A2E /* Debug */,
+				7CC043E31DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC043E41DA46D5B001B2A2E /* Build configuration list for PBXNativeTarget "UltimateFrisbeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC043E51DA46D5B001B2A2E /* Debug */,
+				7CC043E61DA46D5B001B2A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC043831DA46D59001B2A2E /* Project object */;
+}
